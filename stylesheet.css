@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#99F;
+	border:double;
+	font-family:Georgia;
+}
+
+#main{
+	background-color:#CCC;
+}

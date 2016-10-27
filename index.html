@@ -1,31 +1,198 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Home - TG Enterprise</title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-<link rel="shortcut icon"
-      type="image/png" 
-      href="TGCIRCLE.png">
-</head>
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
 
-<body>
-<div id="main">
-<b><font size="+3">TG Enterprise</font></b><br />
-<table width="200" border="0" cellspacing="1" cellpadding="0">
-  <tr>
-    <td width=50% class="active">Home</td>
-    <td width=50% class="menu"><a href="about">About Us</a></td>
-    <!--<td class="menu"><a href="products">Products</a></td>
-    <td class="menu"><a href="contact">Contact Us</a></td>-->
-  </tr>
-</table><br />
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
 
-Welcome to our website. TG Enterprise was founded on the 5th October 2016, by Tommy G himself, as well as his trusted board of directors. We meet <i>EVERY</i> week, and are constantly trying to come up with <i>ANYTHING</i> better than a <i>HAND ON A FUCKING STICK</i>.<br /><br />
+      https://www.apache.org/licenses/LICENSE-2.0
 
-If you want to buy shares, send some bitcoins to our treasurer Trev at <a href="mailto:auto-shaper@mail.com">auto-shaper@mail.com</a> (5 bitcoins per share).<br /><br />
-<a href="IMG_0996.JPG"><img src="IMG_0996.JPG" width="700" /></a><br />
-<font size="-2"><i>Pictured (left to right): Marketing Director, Managing Director and ICT Assistant, preparing the agenda for a meeting.</i></font>
-</div>
-</body>
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>TG Enterprise</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="TGCIRCLE.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/TGCIRCLE.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/TGCIRCLE.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.deep_orange-orange.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+          <h3>TG Enterprise</h3>
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        <h6><em>putting the nob in Chocnob(TM)</em></h6>
+        </div>
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+          <a href="#home" class="mdl-layout__tab is-active">Home</a>
+          <a href="#about" class="mdl-layout__tab">About</a>
+          
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <div class="mdl-layout__tab-panel is-active" id="home">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            
+            <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h4>Welcome to our website!</h4>
+                
+Welcome to our website. TG Enterprise was founded on the 5th October 2016, by Tommy G himself, as well as his trusted board of directors. We meet EVERY week, and are constantly trying to come up with ANYTHING better than a HAND ON A FUCKING STICK.
+              </div>
+              <div class="mdl-card__media">
+              <img src="IMG_0996.JPG" width="100%"> </div>
+              <div class="mdl-card__supporting-text">
+              
+If you want to buy shares, send some bitcoins to our treasurer Trev at auto-shaper@mail.com (5 bitcoins per share).
+              </div>
+            </div>
+            
+          </section>
+          
+          <section class="section--footer mdl-color--white mdl-grid">
+          </section>
+        </div>
+        <div class="mdl-layout__tab-panel" id="about">
+                    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            
+            <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="mdl-card__supporting-text">
+                <h4>About Us</h4>             
+Our company is proud of our ethnically, culturally and gender-ly diverse, comprehensive and supportive team of white males aged 16. If you want a job here, email Secratary of State for TGEnterprise, James Way, at auto-shaper@mail.com, with the subject "I love Tommy G". This is case sensetive, and please remember to include your age, race as well as your parent's annual earnings, and understand that we do hold a large bias in these regards.<p>
+              
+<table class="mdl-data-table mdl-js-data-table">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Role</th>
+      <th class="mdl-data-table__cell--non-numeric">Name</th>
+      </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Managing Director</td>
+      <td class="mdl-data-table__cell--non-numeric">Tommy G.</td>
+      </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Ass. Managing Director</td>
+      <td class="mdl-data-table__cell--non-numeric">Ollie</td>
+      </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Secretary</td>
+      <td class="mdl-data-table__cell--non-numeric">James</td>
+      </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Finance Director</td>
+      <td class="mdl-data-table__cell--non-numeric">Max</td>
+      </tr>
+      <tr>
+      <td class="mdl-data-table__cell--non-numeric">Finance Ass.</td>
+      <td class="mdl-data-table__cell--non-numeric">Ed</td>
+      </tr>
+      <tr>
+      <td class="mdl-data-table__cell--non-numeric">IT Director</td>
+      <td class="mdl-data-table__cell--non-numeric">Marley</td>
+      </tr>
+      <tr>
+      <td class="mdl-data-table__cell--non-numeric">IT Ass.</td>
+      <td class="mdl-data-table__cell--non-numeric">Will</td>
+      </tr>
+      <tr>
+      <td class="mdl-data-table__cell--non-numeric">Marketing Director</td>
+      <td class="mdl-data-table__cell--non-numeric">Jan</td>
+      </tr>
+      <tr>
+      <td class="mdl-data-table__cell--non-numeric">Marketing Ass.</td>
+      <td class="mdl-data-table__cell--non-numeric">Matt H.</td>
+      </tr>
+      <tr>
+      <td class="mdl-data-table__cell--non-numeric">Human Resources Director</td>
+      <td class="mdl-data-table__cell--non-numeric">Cal</td>
+      </tr>
+      <tr>
+      <td class="mdl-data-table__cell--non-numeric">Human Resources Ass.</td>
+      <td class="mdl-data-table__cell--non-numeric">Tommy D.</td>
+      </tr>
+      <tr>
+      <td class="mdl-data-table__cell--non-numeric">Product Management</td>
+      <td class="mdl-data-table__cell--non-numeric">George H.</td>
+      </tr>
+      <tr>
+      <td class="mdl-data-table__cell--non-numeric">Product Management Ass.</td>
+      <td class="mdl-data-table__cell--non-numeric">Matty B.</td>
+      </tr>
+      <tr>
+      <td class="mdl-data-table__cell--non-numeric">Production Ass.</td>
+      <td class="mdl-data-table__cell--non-numeric">Arran</td>
+      </tr>
+      <tr>
+      <td class="mdl-data-table__cell--non-numeric">Production Ass.</td>
+      <td class="mdl-data-table__cell--non-numeric">Jasper</td>
+      </tr>
+      <tr>
+      <td class="mdl-data-table__cell--non-numeric">General Ass.</td>
+      <td class="mdl-data-table__cell--non-numeric">Josh</td>
+      </tr>
+  </tbody>
+</table></p>
+              </div>
+            </div>
+</section>
+</div>            
+
+          <section class="section--footer mdl-color--white mdl-grid">
+          </section>
+        </div>
+
+
+    <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/text-only/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Design: Material Design Lite</a>
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  </body>
 </html>

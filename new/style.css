@@ -1,0 +1,52 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color:#e6e6e6;
+  padding:10px;
+  padding-left:80px;
+  padding-right:80px;
+  border:solid;
+  border-color:white;
+  border-bottom-color:orange;
+  border-right-color:orange;
+}
+
+h1{
+  background-color:lightblue;
+  border:solid;
+  border-color:white;
+  border-bottom-color:orange;
+  border-right-color:orange;
+  padding:5px;
+}
+
+.post{
+  background-color:white;
+  border:solid;
+  border-color:white;
+  border-bottom-color:orange;
+  border-right-color:orange;
+  padding:5px;
+  background-color:lightblue;
+}
+
+#menu{
+  float:left;
+  height:132px;
+  width:80px;
+  margin-right:10px;
+  padding:10px;
+  background-color:lightblue;
+  border:solid;
+  border-color:white;
+  border-bottom-color:orange;
+  border-right-color:orange;
+}
+
+#content{
+  margin-left:127px;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }

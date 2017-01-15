@@ -24,7 +24,7 @@ a:hover {
 }
 
 #menu a {
-  color: sandybrown;
+  color: #f7a36a;
   background-color: white;
   padding: 5px;
 }
@@ -41,7 +41,7 @@ a:hover {
 
 body {
   font-size:20px;
-  background-color: sandybrown;
+  background-color: #f7a36a;
   color: white;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   margin-left: 10%;

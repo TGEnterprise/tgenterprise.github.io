@@ -1,0 +1,61 @@
+h1 {
+  margin: 0px;
+  font-size:40px;
+}
+
+body {
+  font-size:15px;
+  background-color: sandybrown;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+hr {
+  border: 1px solid white;
+  width: 120%;
+}
+
+img {
+  border: 2px solid white;
+  width: 100%;
+}
+
+
+
+
+
+h5 {
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+h4 {
+  margin: 0px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color:red;
+}
+
+#menu a {
+  color: sandybrown;
+  background-color: white;
+  padding: 5px;
+}
+
+#menu a:hover {
+  color: white;
+  background: none;
+}
+
+#active a {
+  color:white;
+  background: none;
+}

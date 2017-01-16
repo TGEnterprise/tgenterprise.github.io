@@ -1,275 +1,43 @@
-﻿<!doctype html>
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      https://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A branch of Young Enterprise.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>TG Enterprise</title>
-
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="TGCIRCLE.png">
-
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    <link rel="apple-touch-icon-precomposed" href="images/TGCIRCLE.png">
-
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
-
-    <link rel="shortcut icon" href="images/TGCIRCLE.png">
-
-    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
-    <!--
-    <link rel="canonical" href="http://www.example.com/">
-    -->
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.deep_orange-orange.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-    #view-source {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 40px;
-      margin-bottom: 40px;
-      z-index: 900;
-    }
-    .centretext{
-      text-align:center;
-      padding-bottom:60px;
-    }
-    </style>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-51649065-4', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<meta name="google-site-verification" content="7dnVa3EIndKIHCuIaNxzEh_UhRZz1fElKgv0bTnikoQ" />
+    <meta name = "viewport" content ="width=device-width">
+    <link rel = "stylesheet" media="only screen and (min-width:100px)" type = "text/css" href = "stylesheet.css">
+    <link rel = "stylesheet" media="only screen and (max-device-width: 1000px)" type = "text/css" href = "mobile.css">
+    <link rel = "shortcut icon" type = "image/png" href = "TGCIRCLE.png">
+    <title>Home - TG Enterprise</title>
+    <h1>TG Enteprise</h1>
+    <h5>A branch of Young Enterprise</h5>
   </head>
-  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-        </div>
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-          <h3>TG Enterprise</h3>
-        </div>
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-        <h6><em>A branch of Young Enterprise.</em></h6>
-        </div>
-        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a href="#home" class="mdl-layout__tab is-active">Home</a>
-          <a href="#blog" class="mdl-layout__tab">Blog</a>
-          <a href="#about" class="mdl-layout__tab">About</a>
 
-        </div>
-      </header>
-      <main class="mdl-layout__content">
-        <div class="mdl-layout__tab-panel is-active" id="home">
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+  <hr>
 
-            <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__supporting-text">
-                <h4>Welcome to our website!</h4>
-                TG Enterprise was founded on the 5th of October 2016, by Tommy G. himself, as well as his trusted board of directors. We meet every week, and are constantly trying to come up with anything remotely better than a hand on a bloody stick. Our current Managing Director is Marley Sudbury, who rules with an iron fist, alongside his Assistant Managing Director Jan Ilnicki.
-              </div>
-              <div class="mdl-card__media">
-              <img src="IMG_0996.JPG" width="100%"> </div>
-              <div class="mdl-card__supporting-text">
+  <body>
+    <span id = "menu">
+      <p>
+        <span id = "active"><a >Home</a></span>
+        <a href="blog">Blog</a>
+        <a href="about">About</a>
+      </p>
+      <p>
+        <a href = "https://twitter.com/tgenterpriseuk">@TGEnterpiseUK</a>
+        <a href = "https://www.facebook.com/tgenterpriseuk">/TGEnterpriseUK</a>
+      </p>
+    </span>
 
-If you want to buy shares, send some bitcoins to our treasurer Trevor H. at stock@tgenterprise.co.uk (5 bitcoins per share, not refundable).
-              </div>
-            </div>
-          </section>
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__supporting-text">
-              
-              <script src="https://apis.google.com/js/plusone.js"></script>
-<div id="comments"></div>
-<script>
-gapi.comments.render('comments', {
-    href: window.location,
-    width: '624',
-    first_party_property: 'BLOGGER',
-    view_type: 'FILTERED_POSTMOD'
-});
-</script>
-            </div>
-          </div>
-</section>
-</div>
-<div class="mdl-layout__tab-panel" id="blog">
-<div class="centretext">
-<h4>** WARNING **</h4>
-Not all of the information presented on this page is neccesarily fact, even if it is presented as such.
-</div>
+    <hr>
+    <h2>Welcome to our website!</h2>
+    <p>
+      <img class = "img1" onLoad="this.src='IMG_0996.JPG'" src = "low/IMG_0996.JPG" width = 50%>
+    </p>
+    <p>
+      TG Enterprise was founded on the 5th of October 2016, by Tommy G. himself, as well as his trusted board of directors. We meet every week, and are constantly trying to come up with anything remotely better than a hand on a bloody stick. Our current Managing Director is Marley Sudbury, who rules with an iron fist, alongside his Assistant Managing Director Jan Ilnicki.
+    </p>
 
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-	<div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-    <div class="mdl-card__supporting-text">
-      <h4>WikiLeaks allegations.</h4>
-      <h6><em>12/01/2017</em></h6>
-      Yesterday, documents containing sensitive information about TG Enterprise was released by WikiLeaks. They claim that these documents show the strong hold that corruption has on the heart of this business. One allegation was that members of the business had been exiled to North Korean concentration camps, after disagreements with previous Managing Director Thomas George. Although the current Managing Director is believed to make use of more standard business procedure, there was also a more recent claim that the production of so-called 'hand-made cards' for Valentines day had been outsourced to unpaid orphans in Cardiff. Assistant MD Jan Ilnicki strongly denied the alleged use of these third-world children.
-    </div>
-    <div class="mdl-card__media">
-      <img src="IMG_3030.png" width="100%"> </div>
-    </div>
-</section>
+    <p>
+      If you want to buy shares, send some bitcoins to our treasurer Trevor H. at stock@tgenterprise.co.uk (5 bitcoins per share, not refundable).
+    </p>
 
-  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-    <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-      <div class="mdl-card__supporting-text">
-        <h4>Election results.</h4>
-        <h6><em>14/12/2016</em></h6>
-        Today a leadership election was held. The candidates for the role of Managing Director were Secretary Sudbury and Marketing Director Ilnicki. After two empassioned and well-thought-out speaches, the votes were counted, and the results were revealed: Secretary Sudbury won with 86.8% of the vote share, whilst Marketing Director Ilnicki got 14.2%. As a result of this election, the new Managing Director is Marley Sudbury, and the new Assistant Managing Director is Jan Ilnicki. Tommy G declined to comment. Whilst it is not known the roles the previous Managing Directors will be filling, it is speculated that there are many positions within the business which require occupation. This election signifies the landmark return of democracy to the previously autocratic company.
-      </div>
-      <div class="mdl-card__media">
-      <img src="tg2.jpg" width="100%"> </div>
-    </div>
-  </section>
-
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-                      <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                        <div class="mdl-card__supporting-text">
-                          <h4>What have we actually done?</h4>
-                          <h6><em>4/12/2016</em></h6>
-                          From Wednesday the 30th of November to Saturday the 3rd of December, various members of TG Enterprise worked at the Bournside Christmas production of "High School Musical", selling teas, coffes, sweets and sodie-pops to the audience members. This event, and the cash flow from it, has helped to kickstart the business, primarily by providing the money used to pay start-up fees. All money that didn't go to paying of these fees went directly to the pockets of Mr Tommy G., even though he did little to no work. This caused even more resignations, especially amongst members whos origins lay amongst the lower classes.
-                        </div>
-                        <div class="mdl-card__media">
-                        <img src="IMG_3038.JPG" width="100%"> </div>
-
-                      </div>
-
-          </section>
-
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-                   <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                     <div class="mdl-card__supporting-text">
-                       <h4>Controversy.</h4>
-                       <h6><em>23/11/2016</em></h6>
-       On the 22nd of November 2016, our business suffered losses from which we may never recover. Secretary James W., as well as several other members, resigned over the controversial transition of TG Enterprise from democracy to dictatorship. As Tommy G. himself became the autocratic führer, many felt that they could not maintain their roles in good faith. The resulting reshuffle may have long-reaching impacts for the future of the company. In the 'last vote' of the company, former IT Director Marley S. was voted into the position of Secretary, though many complained that this could not be considered a truly democratic vote, as only three member were allowed to vote, all of which were completely bias. Many also argued that the resignation of these members under such circumstances could be considered to be furthering the decrease of the reign of democracy.
-
-                     </div>
-                     <div class="mdl-card__media">
-                     <img src="tombergine.jpg" width="100%"> </div>
-
-                   </div>
-
-                 </section>
-
-        </div>
-        <div class="mdl-layout__tab-panel" id="about">
-                    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-
-            <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__supporting-text">
-                <h4>About Us</h4>
-Our company is proud of our ethnically, culturally and gender-ly diverse, comprehensive and supportive team of white males aged 16. If you want a job here, e-mail Secretary of State for TG Enterprise at jobs@TG Enterprise.co.uk, with the subject "I love white chocolate fingers.". This is case sensitive, and please remember to include your age, race as well as your parent's annual earnings, and understand that we do hold a large bias in these regards. If we do not respond to your e-mail withing 2000 working days, please call us on 0118 999 881 999 119 7253. If nobody answers, please assume that the business has failed, or the board of directors has been taken hostage by Daesh, whichever seems more likely at the current time. If neither of these seem probable, please try tweeting <a href="https://www.twitter.com/TGEnterpriseUK">@TGEnterpriseUK</a>.
-<!--<p>
-
-<table class="mdl-data-table mdl-js-data-table">
-  <thead>
-    <tr>
-      <th class="mdl-data-table__cell--non-numeric"><em>Role</em></th>
-      <th class="mdl-data-table__cell--non-numeric"><em>Name</em></th>
-      </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Managing Director</td>
-      <td class="mdl-data-table__cell--non-numeric">Thomas "TG" G.</td>
-      </tr>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Ass. Managing Director</td>
-      <td class="mdl-data-table__cell--non-numeric">Ollie I.</td>
-      </tr>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Secretary</td>
-      <td class="mdl-data-table__cell--non-numeric">Marley S.</td>
-      </tr>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Finance Director</td>
-      <td class="mdl-data-table__cell--non-numeric">Maximilian B.</td>
-      </tr>
-      <tr>
-      <td class="mdl-data-table__cell--non-numeric">Finance Ass.</td>
-      <td class="mdl-data-table__cell--non-numeric">Edward G.</td>
-      </tr>
-      <tr>
-      <td class="mdl-data-table__cell--non-numeric">IT Director</td>
-      <td class="mdl-data-table__cell--non-numeric">Will.i.am H.</td>
-      </tr>
-      <tr>
-      <td class="mdl-data-table__cell--non-numeric">Marketing Director</td>
-      <td class="mdl-data-table__cell--non-numeric">Jan I.</td>
-      </tr>
-      <tr>
-      <td class="mdl-data-table__cell--non-numeric">Marketing Ass.</td>
-      <td class="mdl-data-table__cell--non-numeric">Matthew H.</td>
-      </tr>
-      <tr>
-      <td class="mdl-data-table__cell--non-numeric">Human Resources Director</td>
-      <td class="mdl-data-table__cell--non-numeric">Calum M.</td>
-      </tr>
-      <tr>
-      <td class="mdl-data-table__cell--non-numeric">Human Resources Ass.</td>
-      <td class="mdl-data-table__cell--non-numeric">Thomas D.</td>
-      </tr>
-      <tr>
-      <td class="mdl-data-table__cell--non-numeric">Product Management</td>
-      <td class="mdl-data-table__cell--non-numeric">George H.</td>
-      </tr>
-      <tr>
-      <td class="mdl-data-table__cell--non-numeric">Product Management Ass.</td>
-      <td class="mdl-data-table__cell--non-numeric">Matthew B.</td>
-      </tr>
-      <tr>
-      <td class="mdl-data-table__cell--non-numeric">Production Ass.</td>
-      <td class="mdl-data-table__cell--non-numeric">Arran D.</td>
-      </tr>
-  </tbody>
-</table></p>And many more.-->
-              </div>
-            </div>
-</section>
-</div>
-
-          <section class="section--footer mdl-color--white mdl-grid">
-          </section>
-        </div>
-
-
-<!--    <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/text-only/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Design: Material Design Lite</a>-->
-    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <hr>
   </body>
 </html>

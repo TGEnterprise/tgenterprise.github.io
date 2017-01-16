@@ -59,3 +59,21 @@ a:hover {
   color:white;
   background: none;
 }
+
+
+
+footer {
+  color: #f7a36a;
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0px;
+}
+
+footer a {
+  color: #f7a36a;
+}
